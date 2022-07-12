@@ -17,3 +17,7 @@ const menuToggle = document.getElementById('navbarSupportedContent')
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
+fnSubmit()
+{
+  document.getElementById("contact").submit();
+}
