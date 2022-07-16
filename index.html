@@ -61,7 +61,7 @@
     <!-- about section-->
     <!-- <section id="about">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
+            <h1 class="text-center"><b>About Me</b></h1>
             <div class="row mt-4">
                 <div class="col-lg-4">
                     <img src="images/aboutmoi.png" class= "imageAboutPage" alt="">
@@ -92,7 +92,7 @@
     <!-- portfolio section-->
     <section id="portfolio">
         <div class="container mt-3">
-            <h1 class="text-center">Projects</h1>
+          <h1 class="text-center"><b>Projects</b></h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
@@ -196,7 +196,7 @@
     <!-- contact section-->
     <section id="contact">
         <div class="container mt-3 contactContent">
-            <h1 class="text-center">Contact Me</h1>
+          <h1 class="text-center"><b>Contact Me</b></h1>
 
             <div class="row mt-4">
                 <div class="col-lg-6">
@@ -214,14 +214,14 @@
 
                 <div class="col-lg-6">
                     <!-- form fields -->
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form name="contact" method="GET" action="/thankyou.html" data-netlify="true">
                         <input type="text" class="form-control form-control-lg" placeholder="Name">
                         <input type="email" class="form-control mt-3" placeholder="Email">
                         <input type="text" class="form-control mt-3" placeholder="Subject">
                         <div class="mb-3 mt-3">
                             <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message"></textarea>
                         </div>
-                        <input type="submit" value="Send Message" class="btn btn-primary">
+                      <button type="submit" class="btn btn-primary">Send message</button>
                   </form>
                     
                 </div>
