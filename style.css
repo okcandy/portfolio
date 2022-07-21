@@ -89,6 +89,7 @@
 #footer {
     background-color: #A6E0DD;
     text-align: center;
+    padding-bottom: 3px;
 }
 #footer p {
     font-size: 12px;
@@ -96,3 +97,12 @@
 html, body, html * {
     font-family: 'Montserrat', sans-serif;
 }
+
+label {
+    display: block;
+    margin-bottom: .2em;
+}
+
+ #about p{
+    text-align: left;
+} 
