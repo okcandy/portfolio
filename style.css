@@ -60,7 +60,14 @@
 
 .card-title {
     font-size: 20px;
-    display: block;
+    text-align: center;
+    word-break: break-word;    
+
+}
+
+.card-text {
+    text-align: center;
+    word-break: break-word;  
 }
 
 #contact {
