@@ -63,6 +63,10 @@
     display: block;
 }
 
+.card-text {
+    text-align: center;  
+}
+
 #contact {
     padding-bottom: 4rem;
 }
