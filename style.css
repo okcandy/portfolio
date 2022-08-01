@@ -46,15 +46,15 @@
 
 /* portfolio img sizes */
 .card-body {
-    height: 200px;
-    width: 400px;
-    display: inline-block;
-    text-align: center;
+    height: 22vh;
+    width: 26vw;
+    overflow: hidden;
+   
 }
 
 .card-img-top {
-    height: 200px;
-    width: 200px;
+    height: 24vh;
+    width: 28vw;
 
 }
 
