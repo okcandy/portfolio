@@ -46,16 +46,15 @@
 
 /* portfolio img sizes */
 .card-body {
-    height: 24vh;
-    width: 28vw;
+    height: 200px;
+    width: 400px;
     text-align: center;
-    position: relative;
     word-break: break-word;
 }
 
 .card-img-top {
-    height: 24vh;
-    width: 28vw;
+    height: 200px;
+    width: 400px;
 
 }
 
