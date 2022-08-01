@@ -48,8 +48,9 @@
 .card-body {
     height: 200px;
     width: 400px;
-    display: inline-block;
     text-align: center;
+    word-break: break-word;
+    justify-content: center;
 }
 
 .card-img-top {
