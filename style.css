@@ -46,9 +46,9 @@
 
 /* portfolio img sizes */
 .card-body {
-    height: 28vh;
+    height: 32vh;
     width: 26vw;
-    overflow: hidden;
+    overflow: auto;
    
 }
 
