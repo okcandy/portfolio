@@ -48,7 +48,8 @@
 .card-body {
     height: 200px;
     width: 400px;
-    word-break: break-word;
+    text-align: center;
+    overflow: auto;
 }
 
 .card-img-top {
