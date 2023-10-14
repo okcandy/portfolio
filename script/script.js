@@ -82,6 +82,18 @@ const projects = [
         imageSrc: "images/movie.jpg",
         link: "https://github.com/okcandy/Movie-industry-analysis/blob/main/Movies%20Correlation%20v2.ipynb"
     },
+        {
+        title: "120 years of Summer Olympics",
+        description: "Analysis of 120 years of summer Olympic games using R and Power BI.",
+        imageSrc: "images/olympic2.jpg",
+        link: "https://app.powerbi.com/view?r=eyJrIjoiYzE3YTM1ZDItMTBkOC00OTAxLTllYTctYTc3ZDYyNDI1ZGJkIiwidCI6IjVlNmQyOGNlLTRhMTAtNDk0NS1hYjgwLWQ3OTgyZDgzZjJhNSJ9&pageName=ReportSection" 
+    },
+    {
+        title: "Population and Volcano Mapping",
+        description: "Mapping out the population and active volcanoes in the US using Folium.",
+        imageSrc: "images/volcanoes.jpg",
+        link: "https://github.com/okcandy/Population_Map/blob/master/map1.py" 
+    },
     
 ];
 
