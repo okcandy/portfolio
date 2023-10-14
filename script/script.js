@@ -85,7 +85,7 @@ const projects = [
     
 ];
 
-const projectCardsContainer = document.querySelector('#projectCards');
+const projectCardsContainer = document.getElementById('projectCards');
 
 // Loop through the projects cards
 projects.forEach(project => {
