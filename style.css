@@ -140,4 +140,9 @@
 
 /* Font Family */
 html, body, html * {
-    font-family: 'Roboto
+    font-family: 'Roboto Slab', serif;
+    
+label {
+    display: block;
+    margin-bottom: .2em;
+}
