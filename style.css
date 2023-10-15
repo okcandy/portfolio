@@ -12,13 +12,24 @@
 }
 
 .hero_title {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 3.5rem;
 }
 
 .hero_desc {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 1.75rem;
+}
+
+/* Text Size for Sections */
+#portfolio, #about, #contact {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* Update font for navbar */
+.navbar-brand, .nav-link {
+    font-family: 'Roboto Slab', serif;
 }
 
 /* Text Size for Sections */
@@ -49,12 +60,11 @@
 }
 
 .text-center {
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 28px;
     display: block;
     text-align: center;
 }
-
 /* Portfolio Card Styles */
 .card-body {
     height: auto;
