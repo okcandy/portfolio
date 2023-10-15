@@ -59,11 +59,11 @@
 /* Text Size for Sections */
 #portfolio, #about, #contact {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 .text-center {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     display: block;
     text-align: center;
 }
@@ -84,7 +84,7 @@
     object-fit: cover; 
 }
 .card-title {
-    font-size: 24px;
+    font-size: 20px;
     display: block;
     text-align: center;
 }
