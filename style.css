@@ -33,7 +33,7 @@
 /* Text Size for Sections */
 #portfolio, #about, #contact {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Update font for navbar */
@@ -57,7 +57,7 @@
 }
 .text-center {
     font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     display: block;
     text-align: center;
 }
@@ -120,7 +120,7 @@
 }
 
 .servicesIcon {
-    font-size: 36px;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -189,6 +189,7 @@
 #contact p {
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 
