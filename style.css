@@ -38,7 +38,7 @@
 
 /* Update font for navbar */
 .navbar-brand, .nav-link {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', sans serif;
 }
 
 /* Section Spacing */
