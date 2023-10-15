@@ -166,7 +166,7 @@
 
 /* Font Family */
 html, body, html * {
-    font-family: 'Lato';
+    font-family: 'Roboto Slab', serif;
     
 label {
     display: block;
