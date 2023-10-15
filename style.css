@@ -66,6 +66,7 @@
     height: auto;
     width: 100%;
     overflow: auto;
+    padding: 1.25rem;
 }
 
 .card {
@@ -86,7 +87,8 @@
     text-align: center;
 }
 .card {
-    border: none; 
+    border: 1px solid #ccc;
+    border-radius: 10px; 
 }
 
 .card-img-top {
@@ -187,14 +189,6 @@
 #contact p {
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
-}
-
-#contact .container {
-    padding-left: 0;
-}
-
-#contact .col-md-6 {
-    padding-left: 0;
 }
 
 
