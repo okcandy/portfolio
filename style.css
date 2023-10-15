@@ -142,7 +142,7 @@
 #footer {
     background-color: #A6E0DD;
     text-align: center;
-    padding: 3px 0;
+    padding-bottom: 3px;
 }
 
 #footer p {
@@ -151,7 +151,7 @@
 
 /* Font Family */
 html, body, html * {
-    font-family: 'Lato', serif;
+    font-family: 'Lato';
     
 label {
     display: block;
