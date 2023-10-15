@@ -13,7 +13,7 @@
 
 .imageAboutPage {
     width: 100%; 
-    max-width: 120px;
+    max-width: 80px;
     height: auto; 
 }
 
@@ -63,7 +63,7 @@
 }
 .text-center {
     font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     display: block;
     text-align: center;
 }
