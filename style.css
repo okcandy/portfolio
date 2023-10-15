@@ -32,17 +32,6 @@
     font-family: 'Roboto Slab', serif;
 }
 
-/* Text Size for Sections */
-#portfolio, #about, #contact {
-    font-family: 'Merriweather', serif;
-    font-size: 18px;
-}
-
-/* Update font for navbar */
-.navbar-brand, .nav-link {
-    font-family: 'Lato', sans-serif;
-}
-
 /* Section Spacing */
 #about,
 #services,
