@@ -102,18 +102,18 @@ const projectCardsContainer = document.getElementById('projectCards');
 // Loop through the projects cards
 projects.forEach(project => {
     const card = `
-        <div class="col-lg-4 mt-4">
-            <div class="card portfolioContent">
-                <img class="card-img-top" src="${project.imageSrc}" alt="Card image">
-                <div class="card-body">
-                    <h4 class="card-title"><b>${project.title}</b></h4>
-                    <p class="card-text">${project.description}</p>
-                    <div class="text-center">
-                        <a href="${project.link}" target="_blank" class="btn btn-success">View Project</a>
-                    </div>
+    <div class="col mt-4">
+        <div class="card h-100 portfolioContent">
+            <img class="card-img-top" src="${project.imageSrc}" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title"><b>${project.title}</b></h4>
+                <p class="card-text">${project.description}</p>
+                <div class="text-center">
+                    <a href="${project.link}" target="_blank" class="btn btn-success">View Project</a>
                 </div>
             </div>
         </div>
-    `;
+    </div>
+`;
     projectCardsContainer.innerHTML += card;
 });
