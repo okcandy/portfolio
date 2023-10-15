@@ -71,6 +71,17 @@
 .card-text {
     text-align: center;
 }
+.card {
+    border: none; 
+}
+
+.card-img-top {
+    max-height: 150px; 
+}
+
+.card-body {
+    text-align: center; 
+}
 
 /* Contact Section Styles */
 #contact {
