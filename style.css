@@ -94,7 +94,7 @@
 }
 .card {
     border: 1px solid #ccc;
-    border-radius: 10px; 
+    border-radius: 10px 10px 0 0;
 }
 
 .card-img-top {
