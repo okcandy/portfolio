@@ -189,6 +189,14 @@
     margin-bottom: 0.5rem;
 }
 
+#contact .container {
+    padding-left: 0;
+}
+
+#contact .col-md-6 {
+    padding-left: 0;
+}
+
 
 /* Footer Styles */
 #footer {
