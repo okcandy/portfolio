@@ -39,7 +39,7 @@
 /* Text Size for Sections */
 #portfolio, #about, #contact {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Update font for navbar */
@@ -59,11 +59,11 @@
 /* Text Size for Sections */
 #portfolio, #about, #contact {
     font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
 }
 .text-center {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     display: block;
     text-align: center;
 }
