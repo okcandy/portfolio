@@ -51,9 +51,8 @@
 }
 
 /* Text Size for Sections */
-#portfolio,
-#about,
-#contact {
+#portfolio, #about, #contact {
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
