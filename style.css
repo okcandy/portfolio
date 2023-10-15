@@ -194,7 +194,7 @@
 #footer {
     background-color: #A6E0DD;
     text-align: center;
-    padding-bottom: 3px;
+    padding-bottom: 2px;
 }
 
 #footer p {
@@ -207,5 +207,5 @@ html, body, html * {
     
 label {
     display: block;
-    margin-bottom: .2em;
+    margin-bottom: .2rem;
 }
