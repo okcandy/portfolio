@@ -152,6 +152,44 @@
     color: #000000;
 }
 
+/* Contact Section Styles */
+#contact {
+    padding-bottom: 3rem;
+}
+
+#contact h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    font-style: italic;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333; 
+}
+
+#contact .contactContent {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#contact .col-md-6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #555; 
+}
+
+#contact h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: #333; 
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+
 /* Footer Styles */
 #footer {
     background-color: #A6E0DD;
