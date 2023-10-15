@@ -72,10 +72,6 @@
     overflow: auto;
 }
 
-.card-img-top {
-    height: auto;
-    width: 100%;
-}
 .card {
     height: 100%;
 }
