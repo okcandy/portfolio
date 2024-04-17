@@ -1,6 +1,7 @@
-/* Navbar Styles */
-.navbarScroll.navbarDark {
-    background-color: black;
+/* Update font for navbar */
+.navbar-brand,
+.nav-link {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Hero Section Styles */
@@ -56,9 +57,4 @@
 
 #footer p {
     font-size: 14px;
-}
-
-.contact-info li i {
-    margin-right: 10px;
-    color: #007bff;
 }
