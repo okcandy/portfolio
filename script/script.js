@@ -1,4 +1,4 @@
-// add class navbarDark on navbar scroll
+// navbarDark on navbar scroll
 const header = document.querySelector('.navbar');
 console.log(header);
 window.onscroll = function() {
@@ -15,8 +15,8 @@ const navLinks = document.querySelectorAll('.nav-item');
 const menuToggle = document.getElementById('navbarSupportedContent');
 
 navLinks.forEach((link) => {
-    link.addEventListener('click', () => { 
-        new bootstrap.Collapse(menuToggle).toggle(); 
+    link.addEventListener('click', () => {
+        new bootstrap.Collapse(menuToggle).toggle();
     });
 });
 
@@ -50,7 +50,7 @@ const projects = [
         title: "Youtube API with Python",
         description: "Using Youtube API to retrieve channel and video data.",
         imageSrc: "images/youtube.png",
-        link: "https://github.com/okcandy/py-notebook/blob/main/youtube_api/youtube_api.ipynb" 
+        link: "https://github.com/okcandy/py-notebook/blob/main/youtube_api/youtube_api.ipynb"
     },
     {
         title: "Visualizing Wildfires in Brazil",
@@ -86,15 +86,15 @@ const projects = [
         title: "120 years of Summer Olympics",
         description: "Analysis of 120 years of summer Olympic games using R and Power BI.",
         imageSrc: "images/olympic2.jpg",
-        link: "https://app.powerbi.com/view?r=eyJrIjoiYzE3YTM1ZDItMTBkOC00OTAxLTllYTctYTc3ZDYyNDI1ZGJkIiwidCI6IjVlNmQyOGNlLTRhMTAtNDk0NS1hYjgwLWQ3OTgyZDgzZjJhNSJ9&pageName=ReportSection" 
+        link: "https://app.powerbi.com/view?r=eyJrIjoiYzE3YTM1ZDItMTBkOC00OTAxLTllYTctYTc3ZDYyNDI1ZGJkIiwidCI6IjVlNmQyOGNlLTRhMTAtNDk0NS1hYjgwLWQ3OTgyZDgzZjJhNSJ9&pageName=ReportSection"
     },
     {
         title: "Population and Volcano Mapping",
         description: "Mapping out the population and active volcanoes in the US using Folium.",
         imageSrc: "images/volcanoes.jpg",
-        link: "https://github.com/okcandy/Population_Map/blob/master/map1.py" 
+        link: "https://github.com/okcandy/Population_Map/blob/master/map1.py"
     },
-    
+
 ];
 
 const projectCardsContainer = document.getElementById('projectCards');
@@ -116,4 +116,117 @@ projects.forEach(project => {
     </div>
 `;
     projectCardsContainer.innerHTML += card;
+});
+
+
+---
+
+// Particle.js Initialization 
+
+```javascript
+// Initialize Particle.js with custom configuration
+particlesJS('particles-js', {
+  "particles": {
+    "number": {
+      "value": 80, // Number of particles
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff" // <--- Change this to your desired PARTICLE COLOR (e.g., "#00BFFF" for blue)
+    },
+    "shape": {
+      "type": "circle", // Shape of particles: "circle", "edge", "triangle", "polygon", "star", "image"
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      }
+    },
+    "opacity": {
+      "value": 0.5, // Particle opacity
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3, // Particle size
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150, // Distance for lines to connect
+      "color": "#ffffff", // <--- Change this for LINE COLOR (e.g., "#CCCCCC" for light gray)
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6, // Particle movement speed
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab" // Interaction on hover: "grab", "repulse", "bubble"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push" // Interaction on click: "push", "remove", "bubble", "repulse"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
 });
