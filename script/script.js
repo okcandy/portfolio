@@ -99,7 +99,7 @@ const projects = [
 
 const projectCardsContainer = document.getElementById('projectCards');
 
-// Loop through the projects cards
+// Projects cards
 projects.forEach(project => {
     const card = `
     <div class="col mt-4">
