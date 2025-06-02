@@ -3,6 +3,27 @@
     background-color: black;
 }
 
+/* Initial */
+.navbar {
+    background-color: transparent;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: black !important;
+    transition: color 0.3s ease;
+}
+
+/* On scroll */
+.navbarDark {
+    background-color: #1a1a1a !important;
+}
+
+.navbarDark .nav-link,
+.navbarDark .navbar-brand {
+    color: white !important;
+}
+
 /* Hero Section Styles */
 .bgimage {
     height: 100vh;
