@@ -13,6 +13,7 @@
 .navbar:not(.navbarDark) .nav-link,
 .navbar:not(.navbarDark) .navbar-brand {
     color: black;
+    font-size:14px;
 }
 
 
@@ -20,6 +21,7 @@
 .navbarDark .nav-link,
 .navbarDark .navbar-brand {
     color: white;
+    font-size:14px;
 }
 
 /* Hero Section Styles */
@@ -68,6 +70,7 @@ section h1.text-center {
 .hero_title {
     font-family: 'Roboto Slab', serif;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .hero_desc {
