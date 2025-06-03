@@ -12,12 +12,10 @@
 /* Initial */
 .navbar {
     background-color: transparent;
-    color: black;
 }
 
 .navbar .nav-link,
-.navbar .navbar-brand, 
-.navbar .nav-item {
+.navbar .navbar-brand {
     color: black;
     transition: color 0.3s ease;
     font-size: 14px;
@@ -54,6 +52,11 @@
     background-color: #F0F0F0;
     z-index: -1; 
 }
+
+section h1.text-center {
+    color: black;
+}
+
 
 .imageAboutPage {
     width: 100%;
