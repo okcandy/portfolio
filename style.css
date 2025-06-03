@@ -260,12 +260,16 @@ section h1.text-center {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.social-icons a:hover {
+    background-color: #008000; 
+    color: white;
+}
 
 /* Footer Styles */
 #footer {
-    background-color: #A6E0DD;
+    background-color: #F0F0F0;
     text-align: center;
-    padding-bottom: 2px;
+    padding-bottom: 3px;
 }
 
 #footer p {
