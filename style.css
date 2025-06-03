@@ -246,6 +246,20 @@ section h1.text-center {
     text-align: left;
 }
 
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: black;
+    color: black;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 
 /* Footer Styles */
 #footer {
