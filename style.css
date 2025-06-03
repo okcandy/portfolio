@@ -16,13 +16,13 @@ html, body {
 
 .navbar .nav-link,
 .navbar .navbar-brand {
-    color: black !important;
+    color: black;
     transition: color 0.3s ease;
 }
 
 /* On scroll */
 .navbarDark {
-    background-color: #1a1a1a !important;
+    background-color: #1a1a1a;
 }
 
 .navbarDark .nav-link,
@@ -70,12 +70,12 @@ html, body {
 
 .hero_title {
     font-family: 'Roboto Slab', serif;
-    font-size: 1.5rem;
+    font-size: 0.5rem;
 }
 
 .hero_desc {
     font-family: 'Roboto Slab', serif;
-    font-size: 1.05rem;
+    font-size: 0.5rem;
 }
 
 /* Text Size for Sections */
