@@ -16,6 +16,12 @@
     font-size:14px;
 }
 
+/* On hover*/
+.navbar:not(.navbarDark) .nav-link:hover,
+.navbar:not(.navbarDark) .navbar-brand:hover {
+    color: #006400;
+    transition: color 0.3s ease;
+}
 
 /* On scroll */
 .navbarDark .nav-link,
