@@ -70,12 +70,12 @@ html, body {
 
 .hero_title {
     font-family: 'Roboto Slab', serif;
-    font-size: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .hero_desc {
     font-family: 'Roboto Slab', serif;
-    font-size: 0.5rem;
+    font-size: 1.0rem;
 }
 
 /* Text Size for Sections */
