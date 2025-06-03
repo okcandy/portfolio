@@ -11,7 +11,7 @@
       "stroke": { "width": 0, "color": "#A9A9A9" }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.7,
       "random": false
     },
     "size": {
@@ -33,7 +33,7 @@
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": { "enable": true, "mode": "repulse" },
       "onclick": { "enable": true, "mode": "repulse" },
