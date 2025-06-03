@@ -250,15 +250,23 @@ section h1.text-center {
 /* Footer Styles */
 #footer {
     background-color: #F0F0F0;
-    padding: .2rem;
+    padding: 2rem;
+    position: relative;
+}
+
+#footer .container-fluid {
+    position: relative;
     text-align: center;
 }
 
-
-#footer p {
+.footer-copy {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 14px;
-    margin: 0
-    text-align:center;
+    margin: 0;
+    text-align: left;
 }
 
 /* Font Family */
