@@ -14,12 +14,14 @@
 .navbar:not(.navbarDark) .navbar-brand {
     color: black;
     font-size:14px;
+    font-weight:bold;
 }
 
 /* On hover*/
 .navbar:not(.navbarDark) .nav-link:hover,
 .navbar:not(.navbarDark) .navbar-brand:hover {
     color: #006400;
+    font-weight: bold;
     transition: color 0.3s ease;
 }
 
@@ -27,6 +29,7 @@
 .navbarDark .nav-link,
 .navbarDark .navbar-brand {
     color: white;
+    font-weight: bold;
     font-size:14px;
 }
 
