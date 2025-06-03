@@ -250,6 +250,8 @@ section h1.text-center {
 /* Footer Styles */
 #footer {
     text-align: center;
+    background-color: #F0F0F0;
+    padding: 3rem;
 }
 
 #footer p {
