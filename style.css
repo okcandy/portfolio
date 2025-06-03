@@ -249,14 +249,20 @@ section h1.text-center {
 
 /* Footer Styles */
 #footer {
-    text-align: center;
     background-color: #F0F0F0;
-    padding: 3rem;
+    padding: 2rem;
+}
+
+#footer .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #footer p {
     font-size: 14px;
-    align:left;
+    margin: 0;
 }
 
 /* Font Family */
