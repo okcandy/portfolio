@@ -250,8 +250,9 @@ section h1.text-center {
 /* Footer Styles */
 #footer {
     background-color: #F0F0F0;
-    padding: 2rem;
+    padding: 1.5rem;
     position: relative;
+    margin-top: 3rem; 
 }
 
 #footer .container-fluid {
