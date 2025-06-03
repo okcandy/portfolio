@@ -12,6 +12,7 @@
 /* Initial */
 .navbar {
     background-color: transparent;
+    color: black;
 }
 
 .navbar .nav-link,
@@ -19,7 +20,7 @@
 .navbar .nav-item {
     color: black;
     transition: color 0.3s ease;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* On scroll */
