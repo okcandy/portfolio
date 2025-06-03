@@ -10,22 +10,13 @@
 }*/
 
 /* Initial */
-.navbar {
-    background-color: transparent;
+.navbar:not(.navbarDark) .nav-link,
+.navbar:not(.navbarDark) .navbar-brand {
+    color: black;
 }
 
-.navbar .nav-link,
-.navbar .navbar-brand {
-    color: black;
-    transition: color 0.3s ease;
-    font-size: 14px;
-}
 
 /* On scroll */
-.navbarDark {
-    background-color: #1a1a1a;
-}
-
 .navbarDark .nav-link,
 .navbarDark .navbar-brand {
     color: white;
