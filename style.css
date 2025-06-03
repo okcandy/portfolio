@@ -75,13 +75,14 @@ section h1.text-center {
 
 .hero_title {
     font-family: 'Roboto Slab', serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
 .hero_desc {
     font-family: 'Roboto Slab', serif;
-    font-size: 1.0rem;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 /* Text Size for Sections */
