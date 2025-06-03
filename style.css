@@ -15,10 +15,11 @@
 }
 
 .navbar .nav-link,
-.navbar .navbar-brand 
+.navbar .navbar-brand, 
 .navbar .nav-item {
     color: black;
     transition: color 0.3s ease;
+    font-size: 12px;
 }
 
 /* On scroll */
@@ -28,7 +29,7 @@
 
 .navbarDark .nav-link,
 .navbarDark .navbar-brand {
-    color: white !important;
+    color: white;
 }
 
 /* Hero Section Styles */
